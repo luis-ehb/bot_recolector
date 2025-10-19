@@ -1,0 +1,60 @@
+model_path: ../models/best.pt
+classes:
+- hierro
+- boton_retos
+- inventario_lleno
+conf_thresh: 0.83
+scan_delay: 0.85
+post_move_wait: 2.08
+collect_time: 3.5
+post_move_overrides:
+  '0': 1.8
+  '1': 2.75
+  '2': 2.2
+  '5': 2.3
+  '6': 2.0
+  '7': 1.45
+  '8': 1.6
+  '9': 2.3
+  '12': 2.25
+  '13': 3.0
+map_path:
+- - 1072
+  - 196
+- - 1131
+  - 129
+- - 1075
+  - 520
+- - 1045
+  - 188
+- - 1091
+  - 264
+- - 1117
+  - 222
+- - 901
+  - 230
+- - 388
+  - 285
+- - 396
+  - 465
+- - 256
+  - 481
+- - 267
+  - 455
+- - 280
+  - 233
+- - 236
+  - 474
+- - 246
+  - 487
+randomize_delays: true
+auto_pause_on_arena: true
+toggle_key: f8
+exit_key: esc
+bot_token: 8383100804:AAEYMxxofbGBs2RgNDqJoFUa6DT20G7y8PU
+chat_id: '1644036662'
+ROI:
+  x: 229
+  y: 0
+  w: 912
+  h: 666
